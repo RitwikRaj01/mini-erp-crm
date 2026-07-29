@@ -249,3 +249,17 @@ insufficient role returns `403`, missing records return `404`.
 - No pagination UI beyond simple Prev/Next (no jump-to-page or page-size control).
 - No PDF export, image upload, Docker, or CI/CD — explicitly treated as
   out-of-scope bonus items for this submission.
+
+## Deployment
+
+- Live Frontend: https://mini-erp-crm-gilt.vercel.app/login
+- Live Backend: https://mini-erp-crm-vra7.onrender.com/
+- Database: Neon (PostgreSQL)
+
+## Assumptions
+- Free-tier hosting used instead of AWS (allowed as bonus only, per the case study brief).
+- All seeded test users share the same password for demo convenience.
+
+## Known Limitations
+- Invoice PDF export not implemented (listed as bonus in brief).
+- Product image upload to S3 not implemented (listed as bonus in brief).
